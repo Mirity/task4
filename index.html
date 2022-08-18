@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-
         body {
             width: 80%;
             margin: auto;
@@ -14,12 +13,12 @@
             color: lightcoral;
         }
 
-        .nav_link {
+        .nav-link {
             text-decoration: none;
             color: black;
         }
 
-        .nav_link:hover {
+        .nav-link:hover {
             color: lightcoral;
         }
 
@@ -35,23 +34,17 @@
         }
 
         .list-cats li::before {
-            content: "♡ ";
+            content: "♡";
+            padding-right: 5px;
         }
 
-        .list-cats li {
-            padding-left: 5px;
-        }
-
-        .list_games {
+        .list-games {
             list-style-type: none;
         }
 
-        .list_games li::before {
-            content: "💩 ";
-        }
-
-        .list_games li {
-            padding-left: 5px;
+        .list-games li::before {
+            content: "💩";
+            padding-right: 5px;
         }
 
         .meme-table {
@@ -79,15 +72,15 @@
     <h2>Навигация</h2>
     <nav>
         <ul>
-            <li><a class="nav_link" href="#about_alisa_header">Об Алисе</a></li>
-            <li><a class="nav_link" href="#hobby_header">Увлечения</a></li>
-            <li><a class="nav_link" href="#rating_meme_header">Рейтинг приколов</a></li>
+            <li><a class="nav-link" href="#about-alisa-header">Об Алисе</a></li>
+            <li><a class="nav-link" href="#hobby-header">Увлечения</a></li>
+            <li><a class="nav-link" href="#rating-meme-header">Рейтинг приколов</a></li>
         </ul>
     </nav>
 </section>
 
 <section class="divide">
-    <h2 id="about_alisa_header">Это сайт об Алисе</h2>
+    <h2 id="about-alisa-header">Это сайт об Алисе</h2>
     <p>Здесь она вам что-то расскажет, например, об ее увлечениях, учебе и ваще что-нибудь.</p>
     <p>Немного о себе: меня зовут Алиса. Мне 21:(. Учусь в ЮФУ на кафедре <strong>МОП ЭВМ.</strong>
         Прохожу стажировку в Lachestry. Вот ссылка на
@@ -97,14 +90,14 @@
 </section>
 
 <section class="divide">
-    <h2 id="hobby_header">Увлечения</h2>
+    <h2 id="hobby-header">Увлечения</h2>
     <p>В целом, на данный момент, я могу назвать своим увлечением игры,
         в основном
         <ins>соревновательные игры</ins>
         .<br>
         Например:
     </p>
-    <ul class="list_games">
+    <ul class="list-games">
         <li>
             <del>Дота</del>
             (господи упаси)
@@ -132,7 +125,7 @@
 </section>
 
 <section class="divide">
-    <h2 id="rating_meme_header">Мой рейтинг приколов</h2>
+    <h2 id="rating-meme-header">Мой рейтинг приколов</h2>
     <p>Здесь представлен рейтинг приколов по десятибальной шкале</p>
     <table class="meme-table">
         <thead>
