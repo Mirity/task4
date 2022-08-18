@@ -10,7 +10,7 @@ body {
 .nav-container {
     background-color: lavenderblush;
     padding: 0 40px 40px 40px;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-left: 40px;
     height: fit-content;
 }
@@ -52,7 +52,7 @@ section h2 {
 .divide {
     background-color: lavenderblush;
     padding: 20px 0 20px 80px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 50px;
 }
 
