@@ -1,0 +1,107 @@
+body {
+    margin: auto;
+    font-family: Verdana, sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.nav-container {
+    background-color: lavenderblush;
+    padding: 0 40px 40px 40px;
+    border-radius: 50px;
+    margin-left: 40px;
+    height: fit-content;
+}
+
+.nav-container h2 {
+    color: lightcoral;
+}
+
+.nav-container li {
+    margin-bottom: 10px;
+}
+
+.info-container {
+    margin-left: 200px;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.info-container a:hover {
+    color: mediumorchid;
+}
+
+section h2 {
+    color: lightcoral;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: lightcoral;
+}
+
+.divide {
+    background-color: lavenderblush;
+    padding: 20px 0 20px 80px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.cats-list {
+    list-style-type: none;
+    width: fit-content;
+    padding: 5px;
+}
+
+.cats-list li::before {
+    content: "♡";
+    padding: 5px;
+    background-color: white;
+    color: lightcoral;
+}
+
+.cats-list li {
+    border: 1px solid white;
+    background-color: lightcoral;
+    color: white;
+    padding: 5px 0 5px 0;
+}
+
+.cats-list span {
+    padding: 10px;
+}
+
+.games-list {
+    list-style-type: none;
+}
+
+.games-list li::before {
+    content: "💩";
+    padding-right: 5px;
+}
+
+.meme-table {
+    background-color: lightcoral;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.meme-table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.meme-table th {
+    border: 1px solid white;
+    padding: 10px;
+}
