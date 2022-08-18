@@ -1,0 +1,12 @@
+.gems-table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+.gems-table td {
+    border: 1px solid black;
+}
+
+.gems-table td:nth-child(3) {
+    text-align: center;
+}
