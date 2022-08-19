@@ -7,7 +7,6 @@
     border: 1px solid black;
 }
 
-.third-column-gems {
+.gems-table-cell:nth-child(3) {
     text-align: center;
-    border: 1px solid black;
 }
