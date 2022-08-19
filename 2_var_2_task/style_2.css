@@ -3,10 +3,11 @@
     margin: auto;
     width: 80%;
 }
-.gems-table td {
+.gems-table-cell {
     border: 1px solid black;
 }
 
-.gems-table td:nth-child(3) {
+.third-column-gems {
     text-align: center;
+    border: 1px solid black;
 }
